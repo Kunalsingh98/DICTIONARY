@@ -1,0 +1,4 @@
+Write a Python Program to add a key to a dictionary. 
+x = {'A':5,'B':4,'C':2,'D':6,'E':3}
+x.update({'E':8})
+print(x)
