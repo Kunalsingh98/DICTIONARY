@@ -1,0 +1,4 @@
+Write a Python program to convert list to list of dictionaries.
+list1 = ["Sathya","Yuvi","Sathish","Vignesh","Prakash",]
+list2 = [23,26,24,22,23]
+print([{'Name': f, 'Age': c} for f, c in zip(list1, list2)])
