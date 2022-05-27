@@ -1,0 +1,10 @@
+Check if the Given Dictionary Is Empty or Not.
+D1 = {}
+ 
+#Actual dictionary
+print("The actual dictionary is:", str(D1))
+ 
+#checking if empty or not
+result = not bool(D1)
+print("Is the given dictionary empty? :", result)
+ 
